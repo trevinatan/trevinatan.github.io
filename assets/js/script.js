@@ -3,6 +3,7 @@ $(document).ready(function(){
 
 var description = document.getElementById("description");
 var info = document.getElementById("info");
+var nav = document.getElementById("top-bar");
 
 var mom = document.getElementById("mom");
 var dad = document.getElementById("dad");
@@ -125,6 +126,11 @@ var item3 = document.getElementById("item3");
     	$("#img6").animate({height: "150px"})
     	$("#img6").animate({bottom: "0px"})
   	});  
+    
+nav.onclick = function() {
+    description.style.display = 'block';
+    info.style.display = 'none';
+}
 
 mom.onclick = function() {
 	description.style.display = 'none';
