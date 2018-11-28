@@ -97,11 +97,13 @@ html, body {
 	flex-direction: column;
 	font-size: 30px;
 	justify-content: space-around;
+	overflow-wrap: normal;
 }
 
 #descrip-text {
 	position: absolute;
 	left: 57px;
+	overflow-wrap: normal;
 }
 
 #info {
