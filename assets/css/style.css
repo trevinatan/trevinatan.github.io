@@ -14,8 +14,8 @@ html, body {
 	display: flex;
 	justify-content: center;
 	position: relative;
-	font-size: 55px;
-	color: #808080;
+	font-size: 45px;
+	color: lightgray;
 	border-bottom: 2px solid lightgray;
 }
 
