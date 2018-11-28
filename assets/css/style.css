@@ -104,8 +104,12 @@ html, body {
 	left: 57px;
 }
 
+#instructions {
+	font-size: 20px;
+}
+
 #info {
-	color: lightgray;
+	color: #b3b3cc;
 	height: 90%;
 	width: 50%;
 	display: flex;
