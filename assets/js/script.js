@@ -19,6 +19,7 @@ var item1 = document.getElementById("item1");
 var item2 = document.getElementById("item2");
 var item3 = document.getElementById("item3");
 
+
 	$('#mom').hover(function() {
     	$("#img2").fadeOut("slow");
     	$("#img3").fadeOut("slow");
@@ -125,8 +126,8 @@ var item3 = document.getElementById("item3");
     	$("#img5").fadeIn();
     	$("#img6").animate({height: "150px"})
     	$("#img6").animate({bottom: "0px"})
-  	});  
-    
+  	}); 
+
 nav.onclick = function() {
     description.style.display = 'block';
     info.style.display = 'none';
