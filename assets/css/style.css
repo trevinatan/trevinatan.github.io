@@ -1,0 +1,112 @@
+.navbar-default {
+  background-color: black;
+ }
+
+#overlay {
+	background: #370000;
+	opacity: 0.5;
+}
+
+.home-page {
+	height: 100vh;
+	color: white;
+}
+
+.home-text {
+	position: relative;
+	left: 50vw;
+	top: 15vh;
+}
+
+.name-title {
+	font-size: 48px;
+}
+
+.subtitle {
+	font-size: 36px;
+}
+
+.gray-page {
+	height: 100vh;
+	width: 75vw;
+	background-color: lightgray;
+	position: absolute;
+	z-index: -1;
+}
+
+.white-page {
+	height: 100vh;
+	width: 75vw;
+	background-color: #F9F9F9;
+	position: absolute;
+	z-index: -1;
+}
+
+.page-spacer {
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.projects-page {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.about-page {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.about-rows {
+	width: 75vw;
+	position: relative;
+	top: 5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.content-title {
+	font-size: 48px;
+	text-align: center;
+
+}
+
+.photo-and-blurb {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.photo-frame {
+	height: 340px;
+	width: 300px;
+	border: 1px solid #E5E5E5;
+	border-color: lightgray;
+	box-shadow: 1px 6px 5px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.photo {
+	height: 300px;
+	width: 245px;
+	border: 1px solid #E5E5E5;
+	box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+	position: relative;
+	top: 20px;
+}
+
+.about-blurb {
+}
+
+.resume-button {
+	border: 1px solid gray;
+}
