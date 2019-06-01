@@ -1,3 +1,11 @@
+body {
+	padding-top: 70px;
+}
+
+.pink {
+	background-color: pink;
+}
+
 .navbar-default {
   background-color: black;
  }
@@ -56,6 +64,11 @@
 	justify-content: center;
 }
 
+.projects-content {
+	height: 100vh;
+	width: 75vw;
+}
+
 .about-page {
 	height: 100vh;
 	width: 100vw;
@@ -109,4 +122,5 @@
 
 .resume-button {
 	border: 1px solid gray;
+	width: 100
 }
